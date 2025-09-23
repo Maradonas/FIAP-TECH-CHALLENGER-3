@@ -1,0 +1,109 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Página-1" id="gZphK9QelMourTjDmYUb">
+    <mxGraphModel dx="1509" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-33" value="" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="150" y="260" width="200" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-1" value="" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="350" y="220" width="200" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="395" y="332.5" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-4" value="AMAZON S3&lt;br&gt;(BUCKETS)" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550" y="220" width="780" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-5" value="" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="550" y="260" width="260" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-6" value="" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="810" y="260" width="260" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-7" value="" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="260" width="260" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-8" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;EXTRACT&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="510" y="370" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-9" value="RAW&amp;nbsp;&lt;div&gt;LAYER&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="550" y="260" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-10" value="SILVER&lt;div&gt;LAYER&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="810" y="260" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-11" value="GOLD LAYER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="260" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-12" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="625" y="332.5" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-13" value="RAW&lt;div&gt;DATA&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-14" value="GITHUB&lt;br&gt;REPOSITORIES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="350" y="220" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-15" value="&lt;div style=&quot;font-size: 8px;&quot;&gt;TRANSOFRM&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="770" y="370" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-16" value="IBGE&amp;nbsp;&lt;div&gt;DATA SOURCE&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="150" y="220" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-17" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="885" y="330" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-20" value="CLEANDED&lt;br style=&quot;font-size: 9px;&quot;&gt;STANDARDIZED DATA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="880" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-21" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;Aggregate&lt;br&gt;prepare KPIs&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="370" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-22" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="330" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-23" value="AGREGATED DATA&lt;br&gt;KPIs" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1148.75" y="365" width="102.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="220" width="210" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-25" value="DATA&lt;br&gt;CONSUMPTION&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="220" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-26" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://logos-world.net/wp-content/uploads/2022/02/Microsoft-Power-BI-Symbol.png;" vertex="1" parent="1">
+          <mxGeometry x="1343.8899999999999" y="327.5" width="182.22" height="102.5" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-27" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;DATA&lt;br&gt;ACESS&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="365" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-34" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;SAVE&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="310" y="367.5" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-35" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.ripsa.org.br/wp-content/uploads/2025/08/18-IBGE-Logo.png;" vertex="1" parent="1">
+          <mxGeometry x="175" y="312.5" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-38" value="Official source of PNAD-COVID data provided by IBGE." style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="170" y="470" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-39" value="Repository where IBGE data is stored and versioned for pipeline use." style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="355" y="470" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-40" value="Raw, unprocessed data exactly as received from the source." style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="560" y="470" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-41" value="Cleaned, standardized, and curated data. Ready for exploratory analysis." style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="820" y="470" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-42" value="Consolidated and aggregated data with business rules applied. Basis for KPI generation." style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="470" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q7x4hh1Xrs1UEdXplfxt-43" value="Visualization and analytics tool. Connects to the Gold Layer for reports and dashboards." style="text;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="1335" y="470" width="200" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
