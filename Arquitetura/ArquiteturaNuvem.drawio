@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
   <diagram name="Página-1" id="gZphK9QelMourTjDmYUb">
-    <mxGraphModel dx="869" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1179" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -65,7 +65,7 @@
           <mxGeometry x="1330" y="220" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="q7x4hh1Xrs1UEdXplfxt-26" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://logos-world.net/wp-content/uploads/2022/02/Microsoft-Power-BI-Symbol.png;" parent="1" vertex="1">
-          <mxGeometry x="1343.8899999999999" y="327.5" width="182.22" height="102.5" as="geometry" />
+          <mxGeometry x="1381.25" y="268" width="128.89" height="72.5" as="geometry" />
         </mxCell>
         <mxCell id="q7x4hh1Xrs1UEdXplfxt-27" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;ACESSO&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;AOS&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;DADOS&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1280" y="365" width="100" height="50" as="geometry" />
@@ -82,11 +82,14 @@
         <mxCell id="q7x4hh1Xrs1UEdXplfxt-43" value="7.VIZUALIÇÃO DOS DADOS&lt;div&gt;8.GERAÇÃO DE INSIGHTS&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="1337.5" y="470" width="195" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="MAfjRVw-pzo0F1MgkMgY-1" value="3.LIMPEZA DOS DADOS&lt;div&gt;4.FILTRO POR TRIMESTRE&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="MAfjRVw-pzo0F1MgkMgY-1" value="3.LIMPEZA DOS DADOS&lt;div&gt;4.FILTRO POR TRIMESTRE&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="810" y="471.25" width="250" height="37.5" as="geometry" />
         </mxCell>
-        <mxCell id="MAfjRVw-pzo0F1MgkMgY-2" value="5. APLICAÇÃO DA REGRA DE NEGOCIO&lt;br&gt;6. SIMPLIFICAÇÃO DA BASE DE DADOS" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Verdana;" vertex="1" parent="1">
+        <mxCell id="MAfjRVw-pzo0F1MgkMgY-2" value="5. APLICAÇÃO DA REGRA DE NEGOCIO&lt;br&gt;6. SIMPLIFICAÇÃO DA BASE DE DADOS" style="text;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontFamily=Verdana;" parent="1" vertex="1">
           <mxGeometry x="1077.5" y="470" width="245" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8W3hC4bCNYYutB0n53QM-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://seaborn.pydata.org/_images/logo-tall-lightbg.svg;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="349" width="91.38" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
