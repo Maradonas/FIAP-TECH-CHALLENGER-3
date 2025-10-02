@@ -42,7 +42,7 @@ O fluxo de dados foi estruturado em camadas, utilizando **AWS S3 como Data Lake*
    - Salvamento direto em buckets no S3.
 3. **Camada Prata (Tratamento e Padronização)**
 
-   - Limpeza e padronização dos datasets.
+   - Limpeza e padronização dos datasets. 
    - Filtro para manter apenas **3 meses de pesquisa**.
    - Normalização de colunas e tratamento de valores nulos.
 4. **Camada Ouro (Agregação e KPIs)**
