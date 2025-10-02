@@ -28,7 +28,7 @@ O objetivo final é **apoiar hospitais** na definição de **planos de contingê
 
 O fluxo de dados foi estruturado em camadas, utilizando **AWS S3 como Data Lake** e **Power BI como ferramenta de consumo**.
 
-![Arquitetura do Projeto](ArquiteturaNuvem.drawio.png)
+![Arquitetura do Projeto](Arquitetura/ArquiteturaNuvem.drawio.png)
 
 ### Etapas do Processo
 
