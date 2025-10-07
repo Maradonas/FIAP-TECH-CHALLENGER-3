@@ -97,21 +97,23 @@ Esse equilíbrio é essencial para garantir a representatividade da análise.
 #### Distribuição por Raça/Cor
 
 A maior parte da população entrevistada se autodeclara **parda (≈40%)** e **branca (≈35%)**, enquanto pretos representam cerca de **10%**.
-Grupos indígenas e amarelos aparecem com participação reduzida, mas relevante para políticas específicas.![Distribuição por Raça/Cor](Graficos/pop_3_raca_cor.png)Esses dados reforçam a necessidade de **abordagens de saúde pública diferenciadas** para grupos com menor acesso histórico a serviços de saúde.
+Grupos indígenas e amarelos aparecem com participação reduzida, mas relevante para políticas específicas.![Distribuição por Raça/Cor](Graficos/pop_3_raca_cor.png)
+
+Esses dados reforçam a necessidade de **abordagens de saúde pública diferenciadas** para grupos com menor acesso histórico a serviços de saúde.
 
 ---
 
 #### Distribuição por Faixa Etária
 
 A maior concentração está entre **26 e 60 anos**, faixa etária economicamente ativa e mais exposta ao contágio.
-![Distribuição por Faixa Etária](Graficos/pop_2_faixa_etaria.png)![Distribuição por Faixa Etária](../Graficos/pop_2_faixa_etaria.png)
+![Distribuição por Faixa Etária](Graficos/pop_2_faixa_etaria.png)
 
 ---
 
 #### Top 10 UFs com Maior Representatividade
 
 Estados como **São Paulo**, **Minas Gerais** e **Rio de Janeiro** concentram a maioria dos registros, o que reflete a distribuição populacional e o alcance da pesquisa.
-![Top 10 UFs](Graficos/pop_4_top10_uf.png)![Top 10 UFs](../Graficos/pop_4_top10_uf.png)
+![Top 10 UFs](Graficos/pop_4_top10_uf.png)
 
 ---
 
@@ -129,14 +131,14 @@ Esses padrões auxiliam hospitais a **identificar surtos precoces** e planejar *
 
 Há **alta concentração de pessoas com renda até R$100**, indicando vulnerabilidade econômica.
 Essa realidade aumenta o impacto social da pandemia em comunidades de baixa renda.
-![Faixa de Rendimento](Graficos/eco_7_faixa_rendimento.png)![Faixa de Rendimento](../Graficos/eco_7_faixa_rendimento.png)
+![Faixa de Rendimento](Graficos/eco_7_faixa_rendimento.png)
 
 ---
 
 #### Aposentadoria e Pensão
 
 Cerca de **35% da amostra** declarou receber aposentadoria ou pensão, demonstrando a presença significativa de idosos e dependentes de benefícios previdenciários — um grupo duplamente vulnerável, **clínica e financeiramente**.
-![Aposentadoria e Pensão](Graficos/eco_5_aposent_pensao.png)![Aposentadoria e Pensão](../Graficos/eco_5_aposent_pensao.png)
+![Aposentadoria e Pensão](Graficos/eco_5_aposent_pensao.png)
 
 ---
 
