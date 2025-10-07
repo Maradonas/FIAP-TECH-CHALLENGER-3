@@ -31,28 +31,27 @@ O consumo analítico foi feito via **Power BI e Jupyter Notebook**, sem a necess
 ### Camadas do Processo ETL
 
 1. **Camada Bronze (Raw Data)**
+
    - Armazena os dados originais do IBGE em formato bruto (.parquet).
 2. **Camada Prata (Tratamento e Padronização)**
-   - Padronização de colunas, tratamento de nulos e criação de variáveis derivadas.
+
+   - Limpeza e padronização dos datasets.
+   - Filtro para manter apenas **3 meses de pesquisa**.
+   - Normalização de colunas e tratamento de valores nulos.
 3. **Camada Ouro (Agregações e KPIs)**
+
    - Criação de métricas consolidadas (faixa etária, rendimento, sintomas, etc.).
    - Geração de Parquets otimizados para leitura e análise.
 4. **Camada de Consumo**
+
    - Conexão com Power BI e notebooks para visualização e storytelling.
 
 ---
 
 ## Justificativa Técnica – Uso de Parquet x Banco de Dados (Aurora RDS)
 
-- Limpeza e padronização dos datasets.
-- Filtro para manter apenas **3 meses de pesquisa**.
-- Normalização de colunas e tratamento de valores nulos.
-
-4. **Camada Ouro (LOAD)**
-   ==================
-
-   Durante o desenho da arquitetura, foi avaliado o uso do **Amazon Aurora RDS (PostgreSQL)** para armazenar os dados tratados.
-   Porém, após análise técnica, decidiu-se **não utilizar o banco relacional**, devido aos seguintes fatores:
+Durante o desenho da arquitetura, foi avaliado o uso do **Amazon Aurora RDS (PostgreSQL)** para armazenar os dados tratados.
+Porém, após análise técnica, decidiu-se **não utilizar o banco relacional**, devido aos seguintes fatores:
 
 | Critério                       | Aurora RDS                             | Parquet + S3                                 |
 | ------------------------------- | -------------------------------------- | -------------------------------------------- |
@@ -62,7 +61,7 @@ O consumo analítico foi feito via **Power BI e Jupyter Notebook**, sem a necess
 | **Escalabilidade**        | Vertical, com custo crescente          | Horizontal, simples e serverless             |
 | **Custo de Manutenção** | Instância ativa 24/7                  | Custo zero fora de leitura/gravação        |
 
-👉 **Conclusão Técnica:**
+**Conclusão Técnica:**
 Como o **PNAD-COVID é um dataset estático** (sem atualizações transacionais), o uso de um banco relacional **não agregaria benefícios de performance ou consistência**.
 Em contrapartida, o formato **Parquet** oferece **compressão, leitura paralela e integração nativa com ferramentas analíticas** (Power BI, Athena, PyArrow), eliminando a necessidade de um banco ativo e **reduzindo significativamente os custos de operação**.
 
@@ -120,7 +119,7 @@ Estados como **São Paulo**, **Minas Gerais** e **Rio de Janeiro** concentram a 
 
 A prevalência dos sintomas mostra predominância de **dor de cabeça, tosse, dor muscular e nariz entupido**, sintomas leves mas amplamente reportados.
 Esses padrões auxiliam hospitais a **identificar surtos precoces** e planejar **estratégias de triagem e atendimento**.
-![Prevalência de Sintomas](Graficos/cli_1_prevalencia_sintomas.png)![Prevalência de Sintomas](../Graficos/cli_1_prevalencia_sintomas.png)
+![Prevalência de Sintomas](Graficos/cli_1_prevalencia_sintomas.png)
 
 ---
 
@@ -134,7 +133,7 @@ Essa realidade aumenta o impacto social da pandemia em comunidades de baixa rend
 
 ---
 
-#### 🧓 Aposentadoria e Pensão
+#### Aposentadoria e Pensão
 
 Cerca de **35% da amostra** declarou receber aposentadoria ou pensão, demonstrando a presença significativa de idosos e dependentes de benefícios previdenciários — um grupo duplamente vulnerável, **clínica e financeiramente**.
 ![Aposentadoria e Pensão](Graficos/eco_5_aposent_pensao.png)![Aposentadoria e Pensão](../Graficos/eco_5_aposent_pensao.png)
